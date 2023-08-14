@@ -1,3 +1,52 @@
 #include<stdio.h>
 main(){
 
+char nome[20];
+int idade[2];
+char matricula[10];
+char endereco[30];
+char curso[30];
+char periodo[12];
+char diciplinas[80];
+
+
+printf("\n digite o nome do usuario");
+scanf("%[^\n]", &nome);
+
+printf("\n digite a sua idade");
+sacnf("%[^\n]", &idade);
+
+printf("\n digite seu numero de matricula");
+scanf("%[^\n]", &matricula);
+
+printf("\n digite aqui o seu endereco");
+scanf("%[^\n]", &endereco);
+
+printf("\n digite aqui o seu curso");
+scanf("%[^\n]", &curso);
+
+printf("\n digite aqui seu periodo");
+scanf("%[^\n]", &periodo);
+
+printf("\n digite aqui suas diciplinas");
+scanf("%[^\n]", &diciplinas);
+
+
+printf("\n Nome de usuario: %s", nome);
+
+printf("\n idade do estudante e: %s",idade);
+
+printf("\n matricula do estudante: %s", matricula);
+
+printf("\n endereco de residencia: %s", endereco);
+
+printf("\n curso do estudante: %s", curso);
+
+printf("\n periodo do curso: %s", periodo);
+
+printf("\n diciplinas: %s", diciplinas);
+}
+
+
+
+
